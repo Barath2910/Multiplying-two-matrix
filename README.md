@@ -2,17 +2,46 @@
 
 ## AIM:
 
+To write a python program for multiplying two matrices.
+
 ## ALGORITHM:
 
-### Step 1:
-### Step 2:
-### Step 3:
-### Step 4:
-### Step 5:
+## Step 1:
+Import numpy as np.
 
-## PROGRAM: 
+## Step 2:
+Create a empty list.
+
+## Step 3:
+Using for loops append the two lists.
+
+## Step 4:
+Assign the arrays.
+
+## Step 5:
+Display the result.
+
+## PROGRAM:
+```
+# To write a python program for Multiplying two matrices.
+# Developed by : Barath Kumar J
+# Register Number : 212221230012
+import numpy as np
+l1,l2=[],[]
+n=int(input())
+for i in range(n):
+    l1.append(int(input()))
+for i in range(n):
+    l2.append(int(input()))
+A=np.array(l1)
+B=np.array(l2)
+result=(A*B)
+print("Product of two arrays is:",result)
+```
 
 ## OUTPUT:
+![output](1.JPG)
 
 ## RESULT:
+Python program for multiplying two matrices is successful.
 
